@@ -1,0 +1,32 @@
+
+#type: args
+
+train:
+  feats: 80
+  epochs: 400
+  batch_size: 96
+  micro_batch_size: 4
+  gradient_accumulation_steps: 24
+  lr: 1.0e-4
+  ema_decay: 0.9
+  gradient_clip_norm: 1.0
+  seed: 1234
+
+diffusion:
+  beta_start: 0.0001
+  beta_end: 0.5
+  num_steps: 50
+  schedule: "quad"
+
+experiment:
+  dataset: QTDB
+  noise_dataset: NSTDB
+  sample_rate: 360
+  signal_length: 3600
+  signal_channels: 1
+  validation_selection: raw_model_loss
+  inference_seed: 2024
+  inference_batch_size: 4
+  ddim_steps: 50
+  ddim_eta: 0.0
+

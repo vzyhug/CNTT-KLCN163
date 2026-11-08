@@ -1,0 +1,9 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+.idea/
+.streamlit/secrets.toml
+tmp/
+common_qtdb_mixed_bwem_ma_3600_ntype1.npz
+*.partial

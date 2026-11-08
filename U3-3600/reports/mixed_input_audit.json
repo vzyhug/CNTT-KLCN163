@@ -1,0 +1,12 @@
+{
+  "bundle_sha256": "517bfe0b825fadb05f272e73c205508de034f8d3d403e384b1e1a4afb6c26a4f",
+  "protocol_verified": false,
+  "generated_train_mixture": true,
+  "mixed_train_seed": 1234,
+  "noise_version": 1,
+  "sampling_rate": 360,
+  "n_type": 1,
+  "train_count": 22804,
+  "val_count": 9774,
+  "test_count": 5012
+}

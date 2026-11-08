@@ -1,0 +1,59 @@
+{
+  "dataset_pairs": 5012,
+  "held_out_records": 14,
+  "samples_per_segment": 3600,
+  "noise_bin_counts": {
+    "0.2-0.6": 1077,
+    "0.6-1.0": 1172,
+    "1.0-1.5": 1381,
+    "1.5-2.0": 1382
+  },
+  "bundle_sha256": "517bfe0b825fadb05f272e73c205508de034f8d3d403e384b1e1a4afb6c26a4f",
+  "identical_train_validation_test_fingerprints": true,
+  "identical_training_settings_except_architecture_and_epoch_target": true,
+  "U3_completed_epochs": 100,
+  "U3_selected_epoch": 99,
+  "U4_selected_epoch": 92,
+  "U4_completed_epochs_verified": false,
+  "configured_epoch_targets": {
+    "U3": 100,
+    "U4": 400
+  },
+  "caveat": "U4 best checkpoint targets 400 epochs and was selected at epoch 92. A U4 last checkpoint or matching training log is absent; the stated completed budget of 100 epochs cannot be independently confirmed from best alone.",
+  "sampler": {
+    "steps": 50,
+    "eta": 0,
+    "shots": 1,
+    "seed": 2024,
+    "batch_size": 4
+  },
+  "parameters": {
+    "U3": 9865761,
+    "U4": 11506721
+  },
+  "archives": {
+    "U3": {
+      "path": "U3-3600\\u3_qtdb_mixed_3600_predictions.npz",
+      "sha256": "5ba27589c0218cfc994f42b65c0c51ee5997d1522d014e47877cd29d10d70bdd",
+      "original_order_matches": true
+    },
+    "U4": {
+      "path": "results (4)\\tfcdiff_mixed_evaluation\\proposed_predictions.npz",
+      "sha256": "6c848f660db1a924f13e36a6e4029574c3c14ca6474319fcaae5476c96f48b53",
+      "original_order_matches": true
+    },
+    "TCDAE": {
+      "path": "results (4)\\tfcdiff_mixed_evaluation\\TCDAE_predictions.npz",
+      "sha256": "dd9eaabc6afab815eefc120cbf8989172cb6924b2cc1ab5ea3f7901843cdefea",
+      "original_order_matches": true
+    },
+    "CBAM-Transformer": {
+      "path": "results (4)\\tfcdiff_mixed_evaluation\\CBAM_Transformer_DAE_predictions.npz",
+      "sha256": "d8d117d7de5bce7dfb466d46c8e47f12e80042551bd78a272ed1cfe7d2ecd04a",
+      "original_order_matches": true
+    }
+  },
+  "interpretation": "Descriptive single-run comparisons; no independent-seed significance or causal claim.",
+  "original_U4_and_peer_published_metrics_reproduced": true,
+  "network_AST_identical_except_attention_assignment": true
+}

@@ -1,0 +1,66 @@
+{
+  "output": "common_qtdb_mixed_bwem_ma_3600_ntype1.npz",
+  "sha256": "517bfe0b825fadb05f272e73c205508de034f8d3d403e384b1e1a4afb6c26a4f",
+  "parts": [
+    {
+      "name": "common_qtdb_mixed_bwem_ma_3600_ntype1.npz.part000",
+      "sha256": "dc1889ae54d381d3fb1ec50ac85f6b95843ff0b1216bfce417c42dcf0cf66219"
+    },
+    {
+      "name": "common_qtdb_mixed_bwem_ma_3600_ntype1.npz.part001",
+      "sha256": "a01dc0fb02982c1f471dcdb5126f6cd88fcb5fc09e8042628c895a3a5ea9d9e4"
+    },
+    {
+      "name": "common_qtdb_mixed_bwem_ma_3600_ntype1.npz.part002",
+      "sha256": "5a333e8103b488c4feaa1bbe4ca6d1758b3b788cb9cb1bc72c379e42eb5798e6"
+    },
+    {
+      "name": "common_qtdb_mixed_bwem_ma_3600_ntype1.npz.part003",
+      "sha256": "ba6f37b1b0591b8cdd17303d95f4ef3ffd46ae487a7b94c1fc888b9066377fcd"
+    },
+    {
+      "name": "common_qtdb_mixed_bwem_ma_3600_ntype1.npz.part004",
+      "sha256": "d4f1c25a86772a17580e54c20433774057f905b7dc64eba53944f0e635699882"
+    },
+    {
+      "name": "common_qtdb_mixed_bwem_ma_3600_ntype1.npz.part005",
+      "sha256": "82a749e9ff0ba09f029c7f21c997391c47d704b6b5608d857d3b0cef6c84e842"
+    },
+    {
+      "name": "common_qtdb_mixed_bwem_ma_3600_ntype1.npz.part006",
+      "sha256": "bcd8271370c27283997a9fa469f7139bb2915b627ea9317cb823518600cafd3f"
+    },
+    {
+      "name": "common_qtdb_mixed_bwem_ma_3600_ntype1.npz.part007",
+      "sha256": "ead378aba5ba0f7d30dfbba2e997c26cf659f2a889831b15ded630fd0af38e14"
+    },
+    {
+      "name": "common_qtdb_mixed_bwem_ma_3600_ntype1.npz.part008",
+      "sha256": "aa68d4b28ef9a3c9034835e824c67ee7b6d2141d96e7aecc1de3f1045157b0ab"
+    },
+    {
+      "name": "common_qtdb_mixed_bwem_ma_3600_ntype1.npz.part009",
+      "sha256": "1f56e83e7a63f27ffc3e74cc3310c36e11e3f6d46f8f69b626ac9867dcb98618"
+    },
+    {
+      "name": "common_qtdb_mixed_bwem_ma_3600_ntype1.npz.part010",
+      "sha256": "77b6bd8bdab2f4a73d12ed41db138d9e01b810f277625f4fc78f1d91d912dec2"
+    },
+    {
+      "name": "common_qtdb_mixed_bwem_ma_3600_ntype1.npz.part011",
+      "sha256": "41ea3ae493e05e76029a53f8525c8286ea43c834f176d262728a620810b5e017"
+    },
+    {
+      "name": "common_qtdb_mixed_bwem_ma_3600_ntype1.npz.part012",
+      "sha256": "712a1ee6e5011a950fed47659b3e5d292c5d2fe2ac6fc61ab9fae93d74d08e81"
+    },
+    {
+      "name": "common_qtdb_mixed_bwem_ma_3600_ntype1.npz.part013",
+      "sha256": "e6ad24d925d43e7c93c7cd13a686507ed32a586c46e606928f941348f67d8487"
+    },
+    {
+      "name": "common_qtdb_mixed_bwem_ma_3600_ntype1.npz.part014",
+      "sha256": "af08051e27764a82b9c3e96a9e287e54473b55bf46a104e603ac3843b40b5c5b"
+    }
+  ]
+}

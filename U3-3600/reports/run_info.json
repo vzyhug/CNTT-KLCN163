@@ -1,0 +1,94 @@
+{
+  "experiment": "u3_qtdb_mixed_bwem_ma_3600_generated_train",
+  "architecture_id": "U3",
+  "u4_comparison": {
+    "settings_and_data_match": false,
+    "note": "No U4 reference checkpoint supplied; saved-run equivalence not verified."
+  },
+  "mode": "train",
+  "target_epochs": 100,
+  "completed_epochs": 100,
+  "training_complete": true,
+  "config": {
+    "train": {
+      "feats": 80,
+      "batch_size": 96,
+      "micro_batch_size": 4,
+      "gradient_accumulation_steps": 24,
+      "epochs": 100,
+      "lr": 0.0001,
+      "weight_decay": 0.0,
+      "scheduler": {
+        "name": "StepLR",
+        "step_size": 150,
+        "gamma": 0.1
+      },
+      "gradient_clip_norm": 1.0,
+      "lambda_time": 1.0,
+      "lambda_freq": 0.1
+    },
+    "diffusion": {
+      "beta_start": 0.0001,
+      "beta_end": 0.5,
+      "num_steps": 50,
+      "schedule": "quad"
+    },
+    "experiment": {
+      "name": "u3_qtdb_mixed_bwem_ma_3600_generated_train",
+      "architecture_id": "U3",
+      "attention": "identity",
+      "input_length": 3600,
+      "sampling_rate": 360,
+      "in_channels": 2,
+      "out_channels": 1,
+      "normalization": "per_sample_noisy_maxabs_shared_v1",
+      "stft_n_fft": 128,
+      "stft_hop_length": 64,
+      "ema_decay": 0.9,
+      "seed": 1234,
+      "split_seed": 1234,
+      "data_protocol": "tfcdiff_mixed_bwem_ma_generated_train",
+      "n_type": 1,
+      "mixed_train_seed": 1234,
+      "loss_version": "l1_mean_relative_stft_snr_weighted_continuous_alpha_v1",
+      "research_loss_sha256": "4b444b6e37bfb5385fca4f49e783f447fcd51c17b67d9345b494f4223c773714"
+    }
+  },
+  "device": "cuda",
+  "gpu": "Tesla T4",
+  "torch_version": "2.11.0+cu128",
+  "python_version": "3.13.15",
+  "parameter_count": 9865761,
+  "data_fingerprints": {
+    "bundle_file": "517bfe0b825fadb05f272e73c205508de034f8d3d403e384b1e1a4afb6c26a4f",
+    "clean_train": "08f0b499ed98008f5cd707a9381bce59052cf7e8fcab10d6381301ad74d03ca9",
+    "noisy_train": "b5f30c24e0f7a1aad8d2b712976676d119fafda3e941cd5eae9852b7efd7cee7",
+    "clean_val": "df716423c1d6edccdf4881008a80aecd4de6a353263099fac588a65da809658d",
+    "noisy_val": "3462c1d3c5852912a122acf7dc994e9e2bb56bbf18956509072a774db73e2e55",
+    "clean_test": "733fb8b29b2fdbbe0bf195b4459774c9caba45c6fea89d94fc633cf1af79ab9f",
+    "noisy_test": "c32a62c8adf1c04ca6e2c09b37ae6cf235092127e9d5c7074f7dc72785645435",
+    "manifest": "e3800c399be8e8494ad5f46830cd75e8bf937349ff921d82a5a0e56230ef0f8d"
+  },
+  "source_hashes": {
+    "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/models/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/models/main_model.py": "6a37b7ad6fae246cf0ea30bf34ad245d8c3a56a53a52346fa256099cc2d8642b",
+    "src/models/unet_1d.py": "493e5c6de234172a16d74d84fe8eff20033d0bcc12e03951947463783336ea22",
+    "src/models/blocks/__init__.py": "c75b66b49a1c4d73c2e599ed9650501454dc6188c78b07f3169ac0b08673d4e2",
+    "src/models/blocks/hnf_block.py": "4d48ecdbbda1a6eb2424fad580e719aa3fc40dff3f3a415a68aaf9ac1a1f1ff6",
+    "src/models/blocks/bridge_block.py": "13404db64ea2908b686c1b7e0589db8cbb44dc4bf99e90a5621139f7ae4dd4f4",
+    "src/models/blocks/attention_1d.py": "6a51885a14b70f39b383752d328423fca6e68bfeb32478063cadd81d92d27842"
+  },
+  "common_bundle": "/kaggle/input/datasets/trucresearch/mixed-noise/common_qtdb_mixed_bwem_ma_3600_ntype1.npz",
+  "manifest_origin": "npz:pre_split_input",
+  "protocol_verified": false,
+  "generated_train_mixture": true,
+  "mixed_train_seed": 1234,
+  "noise_version": 1,
+  "n_type": 1,
+  "sampling_rate": 360,
+  "segment_length": 3600,
+  "normalization_scale_source": "noisy input only",
+  "test_used_for_checkpoint_selection": false,
+  "metrics_computed_in_model_notebook": false
+}

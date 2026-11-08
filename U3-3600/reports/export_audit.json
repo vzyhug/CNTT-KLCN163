@@ -1,0 +1,21 @@
+{
+  "prediction_file": "/kaggle/working/u3_qtdb_mixed_bwem_ma_3600_100ep/u3_qtdb_mixed_3600_predictions.npz",
+  "N": 5012,
+  "prediction_shape": [
+    5012,
+    1,
+    3600
+  ],
+  "sample_id_order_preserved": true,
+  "finite": true,
+  "checkpoint": "/kaggle/working/u3_qtdb_mixed_bwem_ma_3600_100ep/checkpoints/best_u3_qtdb_mixed_3600_100ep.pth",
+  "checkpoint_sha256": "4e20310d631f4f25e42b85652094256a5f7063d87dc9c26a70631383f7770063",
+  "selected_epoch": 99,
+  "validation_loss": 0.036696058163622175,
+  "sampler": "DDIM",
+  "ddim_steps": 50,
+  "ddim_eta": 0.0,
+  "num_shots": 1,
+  "seed": 2024,
+  "latency_ms_mean": 442.6093444824219
+}

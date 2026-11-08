@@ -1,0 +1,3 @@
+split,scale_min,scale_median,scale_max
+train,0.13347001,1.1642032,9.63052
+validation,0.14192131,1.1846013,8.340053
